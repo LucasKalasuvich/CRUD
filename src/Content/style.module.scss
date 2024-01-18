@@ -1,0 +1,17 @@
+@import "../styles/base.scss";
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 50px;
+
+    table, th, td {
+        border: 1px solid;
+    }
+
+    table {
+        width: 70px;
+    }
+}
